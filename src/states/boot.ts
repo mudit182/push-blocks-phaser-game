@@ -58,6 +58,6 @@ export default class Boot extends Phaser.State {
            \nSOUND_EXTENSIONS_PREFERENCE. ${SOUND_EXTENSIONS_PREFERENCE}`
         );
 
-        this.game.state.start('preloader');
+        this.game.state.start('Title');
     }
 }

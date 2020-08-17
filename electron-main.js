@@ -18,7 +18,7 @@ function createWindow () {
         resizeable: false,
         show: false,
         useContentSize: true,
-        width: /*[[DEFAULT_GAME_WIDTH*/800/*DEFAULT_GAME_WIDTH]]*/ // This is changed via the setupGameSize script, change DEFAULT_GAME_WIDTH to MAX_GAME_WIDTH if you'd rather use the full size instead of only the safe zone size.
+        width: /*[[DEFAULT_GAME_WIDTH*/1100/*DEFAULT_GAME_WIDTH]]*/ // This is changed via the setupGameSize script, change DEFAULT_GAME_WIDTH to MAX_GAME_WIDTH if you'd rather use the full size instead of only the safe zone size.
     });
 
     mainWindow.once('ready-to-show', function() {

@@ -31,11 +31,11 @@ module.exports = {
             'DEBUG': true,
 
             // Do not modify these manually, you may break things...
-            'DEFAULT_GAME_WIDTH': /*[[DEFAULT_GAME_WIDTH*/800/*DEFAULT_GAME_WIDTH]]*/,
+            'DEFAULT_GAME_WIDTH': /*[[DEFAULT_GAME_WIDTH*/1100/*DEFAULT_GAME_WIDTH]]*/,
             'DEFAULT_GAME_HEIGHT': /*[[DEFAULT_GAME_HEIGHT*/500/*DEFAULT_GAME_HEIGHT]]*/,
-            'MAX_GAME_WIDTH': /*[[MAX_GAME_WIDTH*/888/*MAX_GAME_WIDTH]]*/,
-            'MAX_GAME_HEIGHT': /*[[MAX_GAME_HEIGHT*/600/*MAX_GAME_HEIGHT]]*/,
-            'SCALE_MODE': JSON.stringify(/*[[SCALE_MODE*/'USER_SCALE'/*SCALE_MODE]]*/),
+            'MAX_GAME_WIDTH': /*[[MAX_GAME_WIDTH*/1100/*MAX_GAME_WIDTH]]*/,
+            'MAX_GAME_HEIGHT': /*[[MAX_GAME_HEIGHT*/500/*MAX_GAME_HEIGHT]]*/,
+            'SCALE_MODE': JSON.stringify(/*[[SCALE_MODE*/'SHOW_ALL'/*SCALE_MODE]]*/),
 
             // The items below most likely the ones you should be modifying
             'GOOGLE_WEB_FONTS': JSON.stringify([ // Add or remove entries in this array to change which fonts are loaded
@@ -49,7 +49,7 @@ module.exports = {
             path.join(__dirname, 'dist')
         ]),
         new HtmlWebpackPlugin({
-            title: 'DEV MODE: Phaser NPM Webpack TypeScript Starter Project!',
+            title: 'Blocks',
             template: path.join(__dirname, 'templates/index.ejs')
         })
     ],

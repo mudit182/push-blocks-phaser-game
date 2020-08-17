@@ -5,8 +5,11 @@ import 'phaser';
 import * as WebFontLoader from 'webfontloader';
 
 import Boot from './states/boot';
-import Preloader from './states/preloader';
 import Title from './states/title';
+import Game from './states/game';
+import GameOver from './states/game_over';
+import RoundOverSuccess from './states/round-over-success';
+import RoundOverLowScore from './states/round-over-low-score';
 import * as Utils from './utils/utils';
 import * as Assets from './assets';
 
@@ -14,11 +17,14 @@ class App extends Phaser.Game {
     constructor(config: Phaser.IGameConfig) {
         super (config);
 
-        this.state.add('boot', Boot);
-        this.state.add('preloader', Preloader);
-        this.state.add('title', Title);
+        this.state.add('Boot', Boot);
+        this.state.add('Title', Title);
+        this.state.add('Game', Game);
+        this.state.add('GameOver', GameOver);
+        this.state.add('RoundOverSuccess', RoundOverSuccess);
+        this.state.add('RoundOverLowScore', RoundOverLowScore);
 
-        this.state.start('boot');
+        this.state.start('Boot');
     }
 }
 
