@@ -1,3 +1,5 @@
+Extended from: https://github.com/rroylance/phaser-ce-npm-webpack-typescript-starter-project
+
 # Phaser NPM Webpack TypeScript Starter Project (catchy name, isn't it?)
 
 [![GitHub package version](https://img.shields.io/github/package-json/v/rroylance/phaser-npm-webpack-typescript-starter-project.svg?style=for-the-badge)](https://github.com/rroylance/phaser-npm-webpack-typescript-starter-project/releases)
